@@ -1,0 +1,103 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    justify-content: center;
+    background-color: #26006f;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+   
+}
+
+.container .image-body{
+    border-radius: 1rem;
+}
+
+.container .user-info{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container .image-collection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container .user-info .section{
+    width: 10cm;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.container .user-info .section .person-name{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #ffffff
+}
+
+.container .user-info .section .score{
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.container .user-info .section .image{
+
+}
+
+.container .user-info .section .image img{
+
+}
+
+.container .image-body .image{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 5cm;
+    margin: 0px 15px;
+    margin: 20px 30px 0px 30px;
+}
+
+.container .image-body .image-new{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 5cm;
+    margin: 20px 30px 0px 30px;
+}
+
+
+.container .btn-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1cm;
+}
+
+
+.container .btn-body .message{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+
+.container .btn-body .btn{
+    background-color: #a5af4c;
+    border: none;
+    color: white;
+    padding: 0.7rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+}
