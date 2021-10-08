@@ -7,7 +7,6 @@ import Scissor from "./component/subComponent/Scissor"
 import "./assets/styles/app.css"
 
 function App() {
-
 	const action = [
 		{ key: 0, image: <Paper />, killBy: 2 },
 		{ key: 1, image: <Rock />, killBy: 0 },
